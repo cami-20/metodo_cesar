@@ -1,0 +1,56 @@
+.body {
+    background-image: url('imagenes/fondo1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}   
+
+.container {
+    width: 60%;
+    margin: 160px auto;
+    background-color: rgba(225, 215, 215, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Espacio entre elementos */
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    padding: 12px 24px;
+    /* Aumentar el tamaño de los botones */
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f08710;
+    /* Verde */
+    color: white;
+    /* Texto blanco */
+}
+
+button:hover {
+    background-color: #f4f015;
+    /* Verde más oscuro al pasar el ratón */
+    opacity: 0.8;
+}
+
+#resultado {
+    margin-top: 20px;
+}
